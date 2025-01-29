@@ -1,0 +1,11 @@
+header {
+  font-family: "Koulen", serif;
+}
+
+h1 {
+  font-family: "Inter", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 90px;
+  line-height: 93px;
+}
