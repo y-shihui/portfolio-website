@@ -18,8 +18,12 @@ h1 {
 }
 
 .profile-photo {
-  border: 20px dotted rgb(251, 105, 32);
+  border: 20px dotted #fb6920;
   width: 180px;
+}
+
+.shihui-yang {
+  color: #fb6920;
 }
 
 .explore-work {
