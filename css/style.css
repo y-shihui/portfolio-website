@@ -23,13 +23,15 @@ h1 {
 }
 
 .explore-work {
+  display: flex;
   text-decoration: none;
   color: black;
 }
 
 .explore-work p {
+  display: flex;
   font-family: "Inter", serif;
   font-weight: bold;
   font-size: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
 }
