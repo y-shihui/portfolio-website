@@ -24,6 +24,7 @@ h1 {
 
 .explore-work {
   text-decoration: none;
+  color: black;
 }
 
 .explore-work p {
@@ -31,5 +32,4 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   padding-left: 15px;
-  color: black;
 }
