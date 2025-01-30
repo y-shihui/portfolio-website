@@ -22,15 +22,14 @@ h1 {
   width: 180px;
 }
 
-.explore-work a {
+.explore-work {
+  text-decoration: none;
+}
+
+.explore-work p {
   font-family: "Inter", serif;
   font-weight: bold;
   font-size: 20px;
   padding-left: 15px;
-  text-decoration: none;
   color: black;
-}
-
-.fa-solid fa-arrow-down {
-  font-size: 20px;
 }
