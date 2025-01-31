@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fb6920;
+  --secondary-color: #ffc16f;
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 header {
   font-family: "Koulen", serif;
   text-align: end;
@@ -16,7 +22,7 @@ h2 {
   font-family: "Koulen", serif;
   font-weight: regular;
   font-size: 120px;
-  color: #fb6920;
+  color: var(--primary-color);
   line-height: 0.7;
   margin: 0;
 }
@@ -29,17 +35,17 @@ h3 {
 }
 
 .hero {
-  background: #ffc16f;
+  background: var(--secondary-color);
   padding: 30px;
 }
 
 .profile-photo {
-  border: 20px dotted #fb6920;
+  border: 20px dotted var(--primary-color);
   width: 180px;
 }
 
 .shihui-yang {
-  color: #fb6920;
+  color: var(--primary-color);
 }
 
 .explore-work {
@@ -64,17 +70,17 @@ h3 {
 
 .weather-app,
 .world-clock-app {
-  border: 5px solid #fb6920;
+  border: 5px solid var(--primary-color);
   border-radius: 10px;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: var(--box-shadow);
 }
 
 .ai-poem-image {
-  border: 5px solid #ffc16f;
+  border: 5px solid var(--secondary-color);
   border-radius: 10px;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: var(--box-shadow);
 }
 
 .project-description {
@@ -84,16 +90,35 @@ h3 {
 
 .project-button {
   font-family: "Inter", serif;
-  background-color: #fb6920;
+  background-color: var(--primary-color);
   color: white;
   margin-top: 50px;
 }
 
 .project-button:hover {
-  background-color: #ffc16f;
+  background-color: var(--secondary-color);
   color: white;
 }
 
 .individual-project {
   margin-top: 80px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+    line-height: 85px;
+    padding-top: 80px;
+  }
+  .project-images {
+    display: none;
+  }
+  .project-description {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .project-button {
+    width: 100%;
+    margin-top: 25px;
+  }
 }
